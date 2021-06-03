@@ -20,5 +20,13 @@ Route::get('about','StaticPagesController@about')->name('about');
 
 
 
+/*
+ * 注册页面
+* */
+Route::get('signup','UsersController@create')->name('signup');
+
+
+
+
 
 
