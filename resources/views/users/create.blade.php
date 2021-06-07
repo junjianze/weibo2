@@ -5,6 +5,7 @@
     <div class="offset-md-2 col-md-8">
         <div class="card ">
             <div class="card-header">
+                @include('shared._errors')
                 <h5>注册</h5>
             </div>
             <div class="card-body">
